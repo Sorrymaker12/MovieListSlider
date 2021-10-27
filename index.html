@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Slider by Anthony</title>
+    <link
+        rel = "icon"
+        type = "image/png"
+        href = "https://i.ibb.co/rcPwwyn/movie-play-regular-24.png"
+        sizes = "16x16"
+    >   
+    <!--Fonts--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!--Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!--App CSS-->
+    <link rel = "stylesheet" href = "./app.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <div class = "nav-wrapper"> 
+        <div class = "nav-container"> 
+            <div class = "nav">
+                <a href = "./index.html" class = "logo">
+                    <i class='bx bx-movie-play bx-1'></i><span class = "main-color">Movie Info</span>
+                </a>
+                <ul class = "nav-menu" id = "nav-menu"> 
+                    <li><a href = "./index.html">Home</a></li>
+                    <li><a href = "./genre.html">Genre</a></li>
+                    <li><a href = "./movies.html">Movies</a></li>
+                    <li><a href = "./about.html">About</a></li>
+                </ul>
+                <div id="hamburger-menu" class="hamburger-menu">
+                    <div class="hamburger">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured -->
+    <div class="featured">
+        <div class="featured-slide">
+            <div>
+                <!-- Items -->
+                <div class="featured-item">
+                    <img src = "./images/Banner/Spider.png">
+                    <div class="overlay">
+                        <div class="featured-item-content">
+                            <div class="item-content-wrapper">
+                                <div class="item-content-title">
+                                    Spider-Man : Into the Spider-Verse
+                                </div>
+                                <div class="movie-infos">
+                                    <div class="movie-info">
+                                        <i class = "bx bxs-star"></i>
+                                        <span>10</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class = "bx bxs-time"></i>
+                                        <span>120 mins</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class='bx bx-video-recording'></i>
+                                        <span>HD</span>
+                                    </div>
+                                    <div class="item-content-desc">
+                                        Bitten by a radioactive spider in the subway, Brooklyn teenager Miles Morales suddenly develops mysterious powers that transform him into the one and only Spider-Man. When he meets Peter Parker, he soon realizes that there are many others who share his special, high-flying talents. Miles must now use his newfound skills to battle the evil Kingpin, a hulking madman who can open portals to other universes and pull different versions of Spider-Man into our world.
+                                    </div>
+                                    <div class="item-action">
+                                        <a href="./details1.html">
+                                            <i class='bx bx-info-circle'></i>
+                                            <span>See More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src = "./images/Banner/Bond.jpg">
+                    <div class="overlay">
+                        <div class="featured-item-content">
+                            <div class="item-content-wrapper">
+                                <div class="item-content-title">
+                                    James Bond : No Time To Die
+                                </div>
+                                <div class="movie-infos">
+                                    <div class="movie-info">
+                                        <i class = "bx bxs-star"></i>
+                                        <span>10</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class = "bx bxs-time"></i>
+                                        <span>120 mins</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class='bx bx-video-recording'></i>
+                                        <span>HD</span>
+                                    </div>
+                                    <div class="item-content-desc">
+                                        James Bond is enjoying a tranquil life in Jamaica after leaving active service. However, his peace is short-lived as his old CIA friend, Felix Leiter, shows up and asks for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond on the trail of a mysterious villain who's armed with a dangerous new technology.
+                                    </div>
+                                    <div class="item-action">
+                                        <a href = "./details2.html" class= "btn btn-hover">
+                                            <i class='bx bx-info-circle' ></i>
+                                            <span>See More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src = "./images/Banner/Venom.jpg">
+                    <div class="overlay">
+                        <div class="featured-item-content">
+                            <div class="item-content-wrapper">
+                                <div class="item-content-title">
+                                    Venom
+                                </div>
+                                <div class="movie-infos">
+                                    <div class="movie-info">
+                                        <i class = "bx bxs-star"></i>
+                                        <span>10</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class = "bx bxs-time"></i>
+                                        <span>120 mins</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class='bx bx-video-recording'></i>
+                                        <span>HD</span>
+                                    </div>
+                                    <div class="item-content-desc">
+                                        Journalist Eddie Brock is trying to take down Carlton Drake, the notorious and brilliant founder of the Life Foundation. While investigating one of Drake's experiments, Eddie's body merges with the alien Venom -- leaving him with superhuman strength and power. Twisted, dark and fueled by rage, Venom tries to control the new and dangerous abilities that Eddie finds so intoxicating.
+                                    </div>
+                                    <div class="item-action">
+                                        <a href = "./details3.html" class= "btn btn-hover">
+                                            <i class='bx bx-info-circle' ></i>
+                                            <span>See More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src = "./images/Banner/SC.jpg">
+                    <div class="overlay">
+                        <div class="featured-item-content">
+                            <div class="item-content-wrapper">
+                                <div class="item-content-title">
+                                    Shang Chi and the Legend of the 10 Rings
+                                </div>
+                                <div class="movie-infos">
+                                    <div class="movie-info">
+                                        <i class = "bx bxs-star"></i>
+                                        <span>10</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class = "bx bxs-time"></i>
+                                        <span>120 mins</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class='bx bx-video-recording'></i>
+                                        <span>HD</span>
+                                    </div>
+                                    <div class="item-content-desc">
+                                        Martial-arts master Shang-Chi confronts the past he thought he left behind when he's drawn into the web of the mysterious Ten Rings organization.
+                                    </div>
+                                    <div class="item-action">
+                                        <a href = "./details4.html" class= "btn btn-hover">
+                                            <i class='bx bx-info-circle' ></i>
+                                            <span>See More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src = "./images/Banner/CRA.jpg">
+                    <div class="overlay">
+                        <div class="featured-item-content">
+                            <div class="item-content-wrapper">
+                                <div class="item-content-title">
+                                    Crazy Rich Asians
+                                </div>
+                                <div class="movie-infos">
+                                    <div class="movie-info">
+                                        <i class = "bx bxs-star"></i>
+                                        <span>10</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class = "bx bxs-time"></i>
+                                        <span>120 mins</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class='bx bx-video-recording'></i>
+                                        <span>HD</span>
+                                    </div>
+                                    <div class="item-content-desc">
+                                        Rachel Chu is happy to accompany her longtime boyfriend, Nick, to his best friend's wedding in Singapore. She's also surprised to learn that Nick's family is extremely wealthy and he's considered one of the country's most eligible bachelors. Thrust into the spotlight, Rachel must now contend with jealous socialites, quirky relatives and something far, far worse -- Nick's disapproving mother.
+                                    </div>
+                                    <div class="item-action">
+                                        <a href = "./details5.html" class= "btn btn-hover">
+                                            <i class='bx bx-info-circle' ></i>
+                                            <span>See More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src = "./images/Banner/FF9.jpg">
+                    <div class="overlay">
+                        <div class="featured-item-content">
+                            <div class="item-content-wrapper">
+                                <div class="item-content-title">
+                                    Fast and Furious 9
+                                </div>
+                                <div class="movie-infos">
+                                    <div class="movie-info">
+                                        <i class = "bx bxs-star"></i>
+                                        <span>10</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class = "bx bxs-time"></i>
+                                        <span>120 mins</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class='bx bx-video-recording'></i>
+                                        <span>HD</span>
+                                    </div>
+                                    <div class="item-content-desc">
+                                        Dom Toretto is living the quiet life off the grid with Letty and his son, but they know that danger always lurks just over the peaceful horizon. This time, that threat forces Dom to confront the sins of his past to save those he loves most. His crew soon comes together to stop a world-shattering plot by the most skilled assassin and high-performance driver they've ever encountered -- Dom's forsaken brother.
+                                    </div>
+                                    <div class="item-action">
+                                        <a href = "./details6.html" class= "btn btn-hover">
+                                            <i class='bx bx-info-circle' ></i>
+                                            <span>See More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <!-- 1. JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- 2. OWL Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- 3. App Script -->
+    <script src = "./app.js"></script>
+
+</body>
+</html>
